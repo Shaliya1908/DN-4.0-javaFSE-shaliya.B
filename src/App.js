@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
-import CalculateScore from './Components/CalculateScore';
+import Posts from './Posts';
 
 function App() {
   return (
-    <div className="app-container">
-      <h1>Score Calculator App</h1>
-      <CalculateScore name="shals" school="Greenwood High" total={450} goal={5} />
+    <div className="App">
+      <Posts />
     </div>
   );
 }
